@@ -88,10 +88,10 @@ figure \[fig:E3:Or4:LSQ\].\
 
 ![Plot of the results of least squares curve fitting (left) and maximum
 likelihood (right), with a order 4 polynomial
-function.[]{data-label="fig:E3:Or4:LSQ"}](Figs/Q3/Q3P1Order_4 "fig:"){width="49.00000%"}
+function.[]{data-label="fig:E3:Or4:LSQ"}](Figs/Q3/Q3P1Order_4){width="49.00000%"}
 ![Plot of the results of least squares curve fitting (left) and maximum
 likelihood (right), with a order 4 polynomial
-function.[]{data-label="fig:E3:Or4:LSQ"}](Figs/Q3/Q3P2Order_4 "fig:"){width="49.00000%"}
+function.[]{data-label="fig:E3:Or4:LSQ"}](Figs/Q3/Q3P2Order_4){width="49.00000%"}
 
 One can see that these produce identical results as they are
 mathematically equivalent. With the Bayesian approach, we are able to
@@ -105,10 +105,10 @@ the data. This is done in the right plot of figure \[fig:E3:Or4:Bays\].\
 
 ![Plot of the results of Bayesian curve fitting, with a order 4
 polynomial
-function.[]{data-label="fig:E3:Or4:Bays"}](Figs/Q3/Q3P3_M4 "fig:"){width="49.00000%"}
+function.[]{data-label="fig:E3:Or4:Bays"}](Figs/Q3/Q3P3_M4){width="49.00000%"}
 ![Plot of the results of Bayesian curve fitting, with a order 4
 polynomial
-function.[]{data-label="fig:E3:Or4:Bays"}](Figs/Q3/Q3P3RandomSample_M4 "fig:"){width="49.00000%"}
+function.[]{data-label="fig:E3:Or4:Bays"}](Figs/Q3/Q3P3RandomSample_M4){width="49.00000%"}
 
 We now fit the graphs for <img src="https://rawgit.com/ub	git@github.com:sjnarmstrong/basic-regression-methods/master/svgs/7a14b5b83ebce3bb4dcb52e3abd3a6d5.svg?invert_in_darkmode" align=middle width=47.876565pt height=22.46574pt/>. The results of the least squares and
 maximum likelihood curve fitting is shown in figure \[fig:E3:Or9:LSQ\].
@@ -122,10 +122,10 @@ provide a poor approximation.\
 
 ![Plot of the results of least squares curve fitting (left) and maximum
 likelihood (right), with a order 9 polynomial
-function.[]{data-label="fig:E3:Or9:LSQ"}](Figs/Q3/Q3P1Order_9 "fig:"){width="49.00000%"}
+function.[]{data-label="fig:E3:Or9:LSQ"}](Figs/Q3/Q3P1Order_9){width="49.00000%"}
 ![Plot of the results of least squares curve fitting (left) and maximum
 likelihood (right), with a order 9 polynomial
-function.[]{data-label="fig:E3:Or9:LSQ"}](Figs/Q3/Q3P2Order_9 "fig:"){width="49.00000%"}
+function.[]{data-label="fig:E3:Or9:LSQ"}](Figs/Q3/Q3P2Order_9){width="49.00000%"}
 
 The results of Bayesian regression are less effected by the change in
 order and one can hardly identify the difference between order 4 and
@@ -143,10 +143,10 @@ the effects of this term low.
 
 ![Plot of the results of Bayesian curve fitting, with a order 9
 polynomial
-function.[]{data-label="fig:E3:Or9:Bays"}](Figs/Q3/Q3P3_M9 "fig:"){width="49.00000%"}
+function.[]{data-label="fig:E3:Or9:Bays"}](Figs/Q3/Q3P3_M9){width="49.00000%"}
 ![Plot of the results of Bayesian curve fitting, with a order 9
 polynomial
-function.[]{data-label="fig:E3:Or9:Bays"}](Figs/Q3/Q3P3RandomSample_M9 "fig:"){width="49.00000%"}
+function.[]{data-label="fig:E3:Or9:Bays"}](Figs/Q3/Q3P3RandomSample_M9){width="49.00000%"}
 
 It is also interesting to see how the standard deviation of the graphs
 change as the number of available training points are reduced. This is
@@ -158,10 +158,10 @@ certainty of the predictions is required to make an informed decision.
 
 ![Plot of the results of Bayesian curve fitting on partial data, with a
 order 9 polynomial
-function.[]{data-label="fig:E3:Or9:Bays:RandRem"}](Figs/Q3/Q3P3_minus_a_few_points_M9 "fig:"){width="49.00000%"}
+function.[]{data-label="fig:E3:Or9:Bays:RandRem"}](Figs/Q3/Q3P3_minus_a_few_points_M9){width="49.00000%"}
 ![Plot of the results of Bayesian curve fitting on partial data, with a
 order 9 polynomial
-function.[]{data-label="fig:E3:Or9:Bays:RandRem"}](Figs/Q3/Q3P3RandomSample_minus_a_few_points_M9 "fig:"){width="49.00000%"}
+function.[]{data-label="fig:E3:Or9:Bays:RandRem"}](Figs/Q3/Q3P3RandomSample_minus_a_few_points_M9){width="49.00000%"}
 
 ### Bayesian Model Comparison {#sec:E3:ModComp}
 
@@ -245,7 +245,7 @@ equation \[eqn:E3:mn\] with the initial guess of <img src="https://rawgit.com/ub
 We then need to compute the following two values: <p align="center"><img src="https://rawgit.com/ub	git@github.com:sjnarmstrong/basic-regression-methods/master/svgs/485cf471bdce549066e131d5b41d058f.svg?invert_in_darkmode" align=middle width=247.0116pt height=89.01552pt/></p>
 This is then used to compute the new parameters <img src="https://rawgit.com/ub	git@github.com:sjnarmstrong/basic-regression-methods/master/svgs/c745b9b57c145ec5577b82542b2df546.svg?invert_in_darkmode" align=middle width=10.5765pt height=14.15535pt/> and <img src="https://rawgit.com/ub	git@github.com:sjnarmstrong/basic-regression-methods/master/svgs/8217ed3c32a785f0b5aad4055f432ad8.svg?invert_in_darkmode" align=middle width=10.16565pt height=22.83138pt/>
 using equations 3.98 and 3.99 from [@christopher2016pattern].
-<p align="center"><img src="https://rawgit.com/ub	git@github.com:sjnarmstrong/basic-regression-methods/master/svgs/749f03fa6a03a82038dec99ed500e5dd.svg?invert_in_darkmode" align=middle width=106.468725pt height=82.053345pt/></p> This is then repeated
+<p align="center"><img src="svgs/749f03fa6a03a82038dec99ed500e5dd.svg?invert_in_darkmode" align=middle width=106.468725pt height=82.053345pt/></p> This is then repeated
 until convergence or until a maximum number or iterations is reached. It
 is important to note that this method is only valid when the number of
 data points is greatly larger than the order of the polynomial function.
