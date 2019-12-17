@@ -8,7 +8,7 @@ probability of certain events occurring. We now turn to the problem of
 linear regression. This involves determining the process which is used
 to generate a set of target values given a set of input variables.
 Formally, given a set of input variables
-<img src="https://rawgit.com/ub	git@github.com:sjnarmstrong/basic-regression-methods/master/svgs/54d304ef1fb8e71c763c911f3777da9f.svg?invert_in_darkmode" align=middle width=126.63618pt height=32.25585pt/> and a set
+<img src="svgs/54d304ef1fb8e71c763c911f3777da9f.svg" align=middle width=126.63618pt height=32.25585pt/> and a set
 of target variables
 <img src="https://rawgit.com/ub	git@github.com:sjnarmstrong/basic-regression-methods/master/svgs/0f64c6872baa716741745e0320de5584.svg?invert_in_darkmode" align=middle width=120.243585pt height=32.25585pt/>, we seek
 to find the function <img src="https://rawgit.com/ub	git@github.com:sjnarmstrong/basic-regression-methods/master/svgs/3827df7d20f06250c09fd68e242010f0.svg?invert_in_darkmode" align=middle width=32.580075pt height=24.6576pt/>, which was used to generate the
